@@ -9,3 +9,10 @@ import { Component } from '@angular/core';
 export class Navbar {
 
 }
+export class NavbarComponent {
+  scrollTo(id: string) {
+    document.getElementById(id)?.scrollIntoView({
+      behavior: 'smooth',
+    });
+  }
+}
