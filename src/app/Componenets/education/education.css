@@ -1,0 +1,146 @@
+.education-section {
+  padding: 80px 10%;
+  background: #f9fafb;
+}
+
+.section-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 50px;
+}
+
+/* Card */
+.education-card {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transition: 0.35s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 55px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon */
+.edu-left {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #7c3aed, #c084fc);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edu-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+/* Content */
+.edu-right h3 {
+  font-size: 1.5rem;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.university {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+.edu-date {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+.education-section {
+  padding: 80px 10%;
+  background: #f9fafb;
+}
+
+.section-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 50px;
+}
+
+/* Card */
+.education-card {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transition: 0.35s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 55px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon */
+.edu-left {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #7c3aed, #c084fc);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edu-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+/* Content */
+.edu-right h3 {
+  font-size: 1.5rem;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.university {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+.edu-date {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}

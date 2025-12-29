@@ -1,0 +1,124 @@
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #240046, #5a189a, #9d4edd);
+  color: #fff;
+  text-align: center;
+}
+
+.home-content {
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+  padding: 60px 40px;
+  border-radius: 30px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  animation: fadeInUp 1.2s ease;
+}
+
+/* Name */
+.home-section h1 {
+  font-size: 3.6rem;
+  margin-bottom: 15px;
+  letter-spacing: -1px;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #ffcc70, #ff8fab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.5rem;
+  opacity: 0.9;
+  margin-bottom: 18px;
+}
+
+/* Info */
+.info {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.info span {
+  margin: 0 8px;
+  opacity: 0.6;
+}
+
+/* Links */
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 35px 0;
+}
+
+.contact-links a {
+  padding: 10px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.25);
+  transition: all 0.35s ease;
+}
+
+.contact-links a:hover {
+  background: rgba(255, 255, 255, 0.45);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Divider */
+.divider {
+  width: 700px;
+  height: 4px;
+  margin: 40px auto;
+  background: linear-gradient(90deg, #ffcc70, #ff8fab);
+  border-radius: 5px;
+}
+
+/* Summary */
+.home-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.summary {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  opacity: 0.95;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-content {
+    padding: 40px 25px;
+  }
+
+  .home-section h1 {
+    font-size: 2.4rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+}
